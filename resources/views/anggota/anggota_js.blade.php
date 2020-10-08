@@ -58,13 +58,13 @@
         $('#no_rekening').mask('#');
 
         //mengatur format tanggal
-        $("input[name='tgl_input']").datepicker({
-            format: 'd MM yyyy',
+        $("#tgl_input").datepicker({
+            dateFormat: 'd MM yy',
             autoclose: true
         });
 
-        $("input[name='tgl_mulai_potong']").datepicker({
-            format: 'd MM yyyy',
+        $("#tgl_mulai_potong").datepicker({
+            dateFormat: 'd MM yy',
             autoclose: true
         });
 

@@ -21,4 +21,8 @@ class Simpanan extends Model
             "status1",
             "status2"
         ];
+    public function anggota()
+    {
+        return $this->belongsTo(Anggota::class, 'no_anggota', 'id');
+    }
 }

@@ -25,7 +25,7 @@
             // console.log(no_admin);
         });
         $("input[name='tgl_input_ambil_simpanan']").datepicker({
-            format: 'd-mm-yyyy',
+            dateFormat: 'd MM yy',
             autoclose: true
         });
         // $('#jumlah').mask('')

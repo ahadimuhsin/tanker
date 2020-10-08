@@ -21,4 +21,9 @@ class Pinjaman extends Model
             'angsuran',
             'status'
         ];
+
+    public function anggota()
+    {
+        return $this->belongsTo(Anggota::class, 'no_anggota', 'id');
+    }
 }

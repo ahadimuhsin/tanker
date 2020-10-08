@@ -25,7 +25,7 @@
             console.log(no_admin);
         });
         $("input[name='tgl_input_penyertaan']").datepicker({
-            format: 'd MM yyyy',
+            dateFormat: 'd MM yyyy',
             autoclose: true
         });
         // $('#jumlah').mask('')

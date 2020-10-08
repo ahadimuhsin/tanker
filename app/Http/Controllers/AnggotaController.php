@@ -142,16 +142,28 @@ class AnggotaController extends Controller
 
 //            $from = Carbon::parse($request->tanggal_awal);
 //            $to = Carbon::parse($request->tanggal_akhir);
+//        $anggota = Anggota::select(['no_admin', 'nama', 'no_hp','tgl_mulai_potong',
+//                'bank', 'simpanan_pokok', 'simpanan_wajib', 'simpanan_sukarela', 'cara_pembayaran', 'status'])
+//            ->with(['status_pekerja' => function ($query){
+//                $query->select('nama_status_pekerja', 'id_status_pekerja');
+//            }])
+//            ->get();
+//        $anggota2 = Anggota::with(['status_pekerja'])->get();
 
+//        echo json_encode($anggota);
+//        var_dump($anggota);
+//        echo json_encode($anggota);
         //mengembalikan data ke datatable
         return DataTables::of($anggota)
             ->filter(function ($query) use ($request){
                 //pencarian berdasarkan nama
                 if ($request->has('nama')){
-                    $query->where('tbl_anggota.nama', 'like', "%{$request->get('nama')}%");
+//                    $query->where('tbl_anggota.nama', 'like', "%{$request->get('nama')}%");
+                    $query->where('nama', 'like', "%{$request->get('nama')}%");
                 }
                 //pencarian berdasarkan status pekerjaan
                 if ($request->has('status_kerja')){
+//                    $query->where('m_status_pekerja.nama_status_pekerja', 'like', "%{$request->get('status_kerja')}%");
                     $query->where('m_status_pekerja.nama_status_pekerja', 'like', "%{$request->get('status_kerja')}%");
                 }
                 /*

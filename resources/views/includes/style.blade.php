@@ -8,6 +8,11 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
 
+{{--    Jquery UI--}}
+    <link href="{{ url('assets/css/jquery-ui.min.css') }}" rel="stylesheet" />
+    <link href="{{ url('assets/css/jquery-ui.structure.min.css') }}" rel="stylesheet" />
+    <link href="{{ url('assets/css/jquery-ui.theme.min.css') }}" rel="stylesheet" />
+
     {{--    CSS Datatables--}}
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css"/>

@@ -14,4 +14,9 @@ class Bagian extends Model
         [
             "nama_bagian"
         ];
+    public function anggota()
+    {
+        return $this->belongsTo(Anggota::class, 'id_bagian', 'id_bagian');
+    }
+
 }

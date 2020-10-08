@@ -14,4 +14,9 @@ class statusAnggota extends Model
         [
             "status_anggota"
         ];
+
+    public function anggota()
+    {
+        return $this->belongsTo(Anggota::class, 'id_status_anggota', 'id_status_anggota');
+    }
 }

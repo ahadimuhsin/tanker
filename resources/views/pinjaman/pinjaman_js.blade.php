@@ -25,7 +25,7 @@
             console.log(no_admin);
         });
         $("input[name='tgl_input_pinjam']").datepicker({
-            format: 'd MM yyyy',
+            dateFormat: 'd MM yy',
             autoclose: true
         });
 
