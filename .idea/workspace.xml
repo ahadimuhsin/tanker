@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1efbd8f-026c-4b58-858c-3ac58c741f72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Anggota.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Anggota.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Bagian.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bagian.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnggotaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnggotaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Penyertaan.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Penyertaan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Pinjaman.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Pinjaman.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Simpanan.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Simpanan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/statusAnggota.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/statusAnggota.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/statusPekerja.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/statusPekerja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anggota/anggota_js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anggota/anggota_js.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/style.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/style.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/penyertaan/penyertaan_js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penyertaan/penyertaan_js.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pinjaman/pinjaman_js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pinjaman/pinjaman_js.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/simpanan_shu/simpanan_js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/simpanan_shu/simpanan_js.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/script.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/script.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +168,7 @@
       <workItem from="1601603056436" duration="3344000" />
       <workItem from="1601609217772" duration="3514000" />
       <workItem from="1601630530777" duration="1054000" />
-      <workItem from="1602122941633" duration="7003000" />
+      <workItem from="1602122941633" duration="9804000" />
     </task>
     <servers />
   </component>
@@ -208,5 +196,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="348" y="77" width="585" height="566" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1602130115111" />
+    <state x="512" y="259" key="publish.login" timestamp="1602141851175">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="512" y="259" key="publish.login/0.0.1280.720@0.0.1280.720" timestamp="1602141851175" />
   </component>
 </project>

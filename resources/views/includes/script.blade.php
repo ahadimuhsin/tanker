@@ -20,8 +20,8 @@
 <script src="{{ url('assets/js/jquery-jvectormap.js') }}"></script>
 <!-- Sliders Plugin -->
 <script src="{{ url('assets/js/nouislider.min.js') }}"></script>
-<!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+{{--<!--  Google Maps Plugin    -->--}}
+{{--<script src="https://maps.googleapis.com/maps/api/js"></script>--}}
 <!-- Select Plugin -->
 <script src="{{ url('assets/js/jquery.select-bootstrap.js') }}"></script>
 
